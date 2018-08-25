@@ -1,0 +1,95 @@
+.general_window {
+    border: solid 0px rgb(67, 228, 236);
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 300px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 0 0 65px rgb(193, 246, 250);
+    background: linear-gradient(to top, rgb(193, 246, 250), rgb(176, 237, 241));
+    border-radius: 10px;
+}
+
+@media all and (max-width: 700px) {
+    .general_window {
+        min-width: 100%;
+        margin: 0;
+        transform: translate(0, 0);
+        padding: 0;
+        box-shadow: 0 0 0 rgb(253, 253, 253);
+    }
+}
+
+@media all and (max-width: 700px) {
+    .input_form,
+    .input_form input,
+    .button_form,
+    .load_form button:hover,
+    .load_form button,
+    .text {
+        margin-left: 0;
+        transform: translate(0, 0);
+        padding: 0;
+    }
+}
+
+.input_form:first-child {
+    margin-top: 30px;
+}
+
+.input_form {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    /*border: 1px solid grey;*/
+    min-width: 150px;
+    max-width: 170px;
+}
+
+input {
+    border-radius: 3px;
+    border: solid rgb(62, 83, 190) 6 px;
+    box-shadow: 0 0 20px rgb(241, 241, 236);
+}
+
+.load_form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    min-width: 150px;
+    max-width: 170px;
+}
+
+.load_form button {
+    background: #0000FF;
+    background: linear-gradient(to top, #6495ED, #00BFFF);
+    border: 0px solid #0000FF;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+    width: 140px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00BFFF;
+    margin-bottom: 20px;
+}
+
+.load_form button:hover {
+    background: linear-gradient(to top, #00CED1, #00FFFF);
+    box-shadow: 0 0 50px #00FF7F;
+}
+
+@media all and (max-width: 700px) {
+    .input_form,
+    .load_form {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
+@media all and (max-width: 700px) {
+    .input_form_big {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

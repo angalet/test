@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Активировать карточку</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+
+<body>
+    <header></header>
+    <section class="general_window">
+        <form name="input_form_big" method="post" enctype="multipart/form-data" action="code.php">
+            <div class="input_form">
+                <div class="text"><b>Номер карты</b></div>
+                <input type="text" name="card_number">
+            </div>
+            <div class="input_form">
+                <div class="text"><b>Фамилия</b></div>
+                <input type="text" name="surname">
+            </div>
+            <div class="input_form">
+                <div class="text"><b>Имя</b></div>
+                <input type="text" name="name">
+            </div>
+            <div class="input_form">
+                <div class="text"><b>Отчество</b></div>
+                <input type="text" name="second_name">
+            </div>
+            <div class="input_form">
+                <div class="text"><b>Дата рождения</b></div>
+                <input name="bt_date" type="date">
+                </p>
+            </div>
+            <div class="input_form">
+                <div class="text"><b>номер телефона</b></div>
+                <input type="text" name="phone_number" value="7">
+            </div>
+            <div class="input_form">
+                <div class="text"><b>e-mail</b></div>
+                <input type="text" name="email">
+            </div>
+            <div class="input_form">
+                <div class="text"><b>Пол</b></div>
+                <p><input name="sex" type="radio" value="mail"> Муж.
+                    <input name="sex" type="radio" value="female"> Жен.
+                </p>
+            </div>
+            <div class="input_form">
+                <div class="text"><input type="checkbox" name="agreement" value="yes"><b> Согласие на обработку данных </b></div>
+            </div>
+            <div class="load_form">
+                <button type="submit" name="LOAD" value="Y">Отправить данные</button>
+                <!--<p><input type="submit" value="Отправить"></p>-->
+        </form>
+        </div>
+    </section>
+</body>
+
+</html>
